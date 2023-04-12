@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.taula {
+    position: relative;
+    background: green;
+    width: 500px;
+    height: 500px;
+    border: 5px solid saddlebrown;
+    margin: 40px auto; /* Agrega esta propiedad */
+    padding: 20px;
+}
+
+.dealer {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: end;
+}
+
+.dealer p {
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+}
+
+.your {
+    display: flex;
+    justify-content: center;
+    align-content: end;
+}
+
+.your p {
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+}
+
+.card {
+    width: 90px;
+    height: 120px;
+    background: saddlebrown;
+    margin-top: 50px;
+    margin-left: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+.panel-control {
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.panel-control button {
+    padding: 20px;
+    border-radius: 5%;
+    font-size: 14px;
+    background: #e2bca2;
+}
