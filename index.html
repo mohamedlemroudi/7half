@@ -7,6 +7,12 @@
 </head>
 <body>
     <h1>7 i mig</h1>
+    <form class="formulari_personal">
+        <label>Nom: </label>
+        <input id="nom_jugador">
+        <label>Cantitat a postar</label>
+        <input type="range" id="cantitat_apostar">
+    </form>
     <div id="taula" class="taula">
         <div class="dealer">
             <p>Dealer's cards: </p>
@@ -30,6 +36,11 @@
         <button type="button" id="aposta">Aposta</button>
         <button type="button" id="plantar">Plantar-se</button>
         <button type="button" id="tornar_jugar">Tornar Jugar</button>
+    </div>
+
+    <div class="resultat" id="resultat">
+        <h1>Resultat: </h1>
+        <p id="anunciat" class="anunciat"></p>
     </div>
 
     <script type="module" src="javascript/main.js"></script>

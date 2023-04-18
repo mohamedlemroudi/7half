@@ -1,4 +1,8 @@
-// són els tres botons que tenim en el panel
-import ViewGame from "./views/viewGame.js"
+import Controller from './controller/Controller.js';
+import Game from './modules/Game.js';
+import ViewGame from './views/ViewGame.js';
 
-let partida = new ViewGame();
+const game = new Game();
+const view = new ViewGame();
+
+new Controller(game, view);
